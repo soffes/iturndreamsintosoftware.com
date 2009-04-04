@@ -1,0 +1,91 @@
+/* @override 
+	http://localhost/~samsoffes/iturndreamsintosoftware.com/css/stylesheet.css */
+
+/* @group Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+
+blockquote,q {
+	quotes: "" "";
+}
+
+/* @end */
+
+body {
+	background-color: #1c1c1c;
+	color: #444;
+	font-family: "HelveticaNeue-Light","HelveticaNeue","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+}
+
+div#container {
+	color: #d5d5d5;
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0 0 -225px;
+	font-size: 20px;
+	text-shadow: #000 1px 1px 2px;
+}
+
+h1 {
+	font-size: 1.7em;
+	font-weight: bold;
+	color: #08e35f;
+	margin-bottom: 0.2em;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+p {
+	margin-bottom: 1em;
+	line-height: 1.3em;
+}
+
+a {
+	color: #08e35f;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+a:hover {
+	text-decoration: underline;
+}
