@@ -46,27 +46,62 @@ blockquote,q {
 /* @end */
 
 body {
-	background-color: #1c1c1c;
-	color: #444;
+	color: #333;
 	font-family: "HelveticaNeue-Light","HelveticaNeue","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
 	font-weight: 300;
 }
 
 div#container {
-	color: #d5d5d5;
-	width: 450px;
+	order-radius-topright: 1.2em;
+	-o-border-radius-topright: 1.2em;
+	-icab-border-radius-topright: 1.2em;
+	-khtml-border-radius-topright: 1.2em;
+	-moz-border-radius-topright: 1.2em;
+	-webkit-border-radius-topright: 1.2em;
+	border-top-right-radius: 1.2em;
+	-o-border-top-right-radius: 1.2em;
+	-icab-border-top-right-radius: 1.2em;
+	-khtml-border-top-right-radius: 1.2em;
+	-moz-border-top-right-radius: 1.2em;
+	-webkit-border-top-right-radius: 1.2em;
+	border-radius-bottomleft: 1.2em;
+	-o-border-radius-bottomleft: 1.2em;
+	-icab-border-radius-bottomleft: 1.2em;
+	-khtml-border-radius-bottomleft: 1.2em;
+	-moz-border-radius-bottomleft: 1.2em;
+	-webkit-border-radius-bottomleft: 1.2em;
+	border-bottom-left-radius: 1.2em;
+	-o-border-bottom-left-radius: 1.2em;
+	-icab-border-bottom-left-radius: 1.2em;
+	-khtml-border-bottom-left-radius: 1.2em;
+	-moz-border-bottom-left-radius: 1.2em;
+	-webkit-border-bottom-left-radius: 1.2em;
+	background: #fafafa;
+	border: 1.2em solid #f2f2f2;
+	padding: 1.2em;
+	width: 27em;
+	height: 11em;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin: -200px 0 0 -225px;
-	font-size: 20px;
-	text-shadow: #000 1px 1px 2px;
+	margin: -7.9em 0 0 -15.9em;
+	text-shadow: #ccc 1px 1px 2px;
+}
+
+a {
+	color: #2e80d3;
+}
+
+em {
+	font-style: normal;
+	background: #fff6a9;
+	padding: 0 0.1em;
 }
 
 h1 {
 	font-size: 1.7em;
 	font-weight: bold;
-	color: #08e35f;
 	margin-bottom: 0.2em;
 }
 
@@ -81,7 +116,6 @@ p {
 }
 
 a {
-	color: #08e35f;
 	text-decoration: none;
 	white-space: nowrap;
 }
