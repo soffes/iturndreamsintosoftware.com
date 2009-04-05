@@ -45,6 +45,20 @@ blockquote,q {
 
 /* @end */
 
+/* @group Misc */
+
+.clear:after {
+	clear: both;
+	content: " ";
+	display: block;
+	height: 0;
+	zoom: 1;
+}
+
+/* @end */
+
+/* @group General */
+
 body {
 	background: url(../img/bgrd.gif); /*#d3deea*/
 	color: #fff;
@@ -52,19 +66,6 @@ body {
 	font-size: 24px;
 	font-weight: 300;
 	text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 1px;
-}
-
-div#container {
-	width: 27em;
-	height: 18em;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -9em 0 0 -13.5em;
-}
-
-div#container * {
-	line-height: 1.3em;
 }
 
 a {
@@ -76,6 +77,10 @@ h1 {
 	font-size: 1.7em;
 	letter-spacing: 0.05em;
 	margin: 0 0 0.5em;
+}
+
+h3 {
+	font-size: 1.2em;
 }
 
 p {
@@ -90,3 +95,28 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+/* @end */
+
+/* @group Layout */
+
+div#container {
+	width: 27em;
+	height: 18em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -9em 0 0 -13.5em;
+}
+
+div#container * {
+	line-height: 1.3em;
+}
+
+div#contact li {
+	font-size: 0.8em;
+	float: left;
+	width: 33%;
+}
+
+/* @end */
