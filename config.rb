@@ -3,5 +3,5 @@ project_type = :stand_alone
 css_dir = "css"
 sass_dir = "sass"
 images_dir = "img"
-output_style = :compact
+output_style = :expanded
 http_images_path = "/img"
