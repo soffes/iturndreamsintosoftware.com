@@ -1,1 +1,1 @@
-body{width:320px;padding:0;margin:0}div#container h1{line-height:1em}div#container{width:280px;margin:0;padding:20px;position:relative;top:0;left:0;height:auto;font-size:0.8em}div#contact li,div#contact ul.im li{float:none;margin-bottom:0.3em;width:auto;text-align:left}
+body{width:320px;padding:0;margin:0}h1{margin:0;width:280px;height:165px;overflow:hidden}div#container{width:280px;margin:0;padding:20px;font-size:16px}ul.contact li,ul.contact.two li{float:none;margin-bottom:0.3em;width:auto;text-align:left}
