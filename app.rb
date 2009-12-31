@@ -9,5 +9,5 @@ before do
 end
 
 get '/?' do
-  erb :home
+  erb :home, :locals => { :params => params}
 end

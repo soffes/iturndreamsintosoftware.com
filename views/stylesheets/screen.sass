@@ -1,6 +1,19 @@
 // My simple reset
 @import reset.sass
 
+// Fonts
+@font-face
+  font-family: 'NillandRegular'
+  src: url('/fonts/Nilland.eot')
+  src: local('Nilland Regular'), local('Nilland'), url('/fonts/Nilland.woff') format('woff'), url('/fonts/Nilland.ttf') format('truetype'), url('/fonts/Nilland.svg#Nilland') format('svg')
+!nilland = "NillandRegular, HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+
+@font-face
+  font-family: 'BistroScriptRegular'
+  src: url('/fonts/BistroScript.eot')
+  src: local('Bistro Script Regular'), local('BistroScript'), url('/fonts/BistroScript.woff') format('woff'), url('/fonts/BistroScript.ttf') format('truetype'), url('/fonts/BistroScript.svg#BistroScript') format('svg')
+!bistroScript = "BistroScriptRegular, 'Marker Felt', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+
 // Easy clear
 .clear:after
   clear: both
@@ -30,6 +43,8 @@ a:hover
 h1
   font-size: 68px
   margin: 50px 0
+  text-transform: lowercase
+  font-family= !bistroScript
   a
     color: #f05b35
     border: 0
@@ -42,6 +57,7 @@ h2
   font:
     size: 26px
     weight: bold
+    family= !nilland
   padding-left: 40px
   text-transform: lowercase
   margin-bottom: 4px
@@ -73,6 +89,7 @@ ul.contact
     text-align: center
     span
       font-size: 22px
+      font-family= !bistroScript
       text-transform: lowercase
       position: relative
       top: -1px

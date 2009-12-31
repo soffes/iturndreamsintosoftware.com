@@ -7,13 +7,7 @@
     <link rel="stylesheet" href="http://<%= env["HTTP_HOST"] %>/stylesheets/screen.css" type="text/css" />
     <link rel="stylesheet" href="http://<%= env["HTTP_HOST"] %>/stylesheets/iphone.css" type="text/css" media="only screen and (max-device-width: 480px)" />
     <meta name="viewport" content="width=320, initial-scale=1.0, user-scalable=no" />
-    <script src="http://<%= env["HTTP_HOST"] %>/javascripts/cufon.js" type="text/javascript"></script>
-    <script src="http://<%= env["HTTP_HOST"] %>/javascripts/Bistro_Script_400.font.js" type="text/javascript"></script>
-    <script src="http://<%= env["HTTP_HOST"] %>/javascripts/Nilland_400-Nilland_700.font.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      Cufon.replace('h1, ul.contact span', { fontFamily: 'Bistro Script' });
-      Cufon.replace('h2', { fontFamily: 'Nilland' });
-    </script>
+    <script>var _gaq=_gaq || [];_gaq.push(['_setAccount','UA-5609322-4']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);})();</script>
     <!-- 
       View source code at GitHub: http://github.com/samsoffes/iturndreamsintosoftware.com 
       Best viewed in a WebKit browser (like Safari 4) for all of the CSS goodness
@@ -23,11 +17,9 @@
   <body>
     <div id="border"></div>
     <div id="container">
-      <h1><a href="http://<%= env["HTTP_HOST"] %>/">i turn dreams into software</a></h1>
+      <h1><a href="http://<%= env["HTTP_HOST"] %>/">I turn dreams into software</a></h1>
       <%= yield %>
     </div>
     <script type="text/javascript" src="http://<%= env["HTTP_HOST"] %>/javascripts/iphone.js"></script>
-    <script type="text/javascript">var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try{var pageTracker=_gat._getTracker("UA-5609322-4");pageTracker._trackPageview();}catch(err){</script>
-    <script type="text/javascript">_qoptions={qacct:"p-1crX9oZZZMDA6"};</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script><noscript><img src="http://pixel.quantserve.com/pixel/p-1crX9oZZZMDA6.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></noscript>
   </body>
 </html>
