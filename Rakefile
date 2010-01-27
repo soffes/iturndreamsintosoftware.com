@@ -4,13 +4,13 @@ namespace :gems do
   desc "Install necessary gems"
   task :install do
     dependencies = [
-      "sinatra --version >= 0.9.4",
       "haml --version >= 2.2.9",
-      "chriseppstein-compass --version 0.8.7 --source http://gems.github.com",
-      "shotgun --version >=0.4"
+      "compass --version 0.8.17",
+      "sinatra",
+      "shotgun"
     ]
     dependencies.each do |dependency|
-      command = "gem install #{dependency} -q"
+      command = "gem install #{dependency} --source http://gemcutter.org"
       puts command
       system command
     end
