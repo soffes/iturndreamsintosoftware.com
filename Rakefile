@@ -4,8 +4,8 @@ namespace :gems do
   desc "Install necessary gems"
   task :install do
     dependencies = [
-      "haml --version >= 2.2.9",
-      "compass --version 0.8.17",
+      "haml --version '>= 2.2.9'",
+      "compass --version '>= 0.8.17'",
       "sinatra",
       "shotgun"
     ]
